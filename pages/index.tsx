@@ -59,10 +59,14 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                     </section>
 
                     <Link href="mailto:paolo@conizzoli.com">
-                        <a className={"mt-8 mr-2 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg"}>{`Let's chat!`}</a>
+                        <a className={"mt-8 mr-2 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg " +
+                            "hover:bg-slate-200 focus:bg-slate-200 focus:outline focus:outline-2 " +
+                            "focus:outline-offset-2 focus:outline-white"}>{`Let's chat!`}</a>
                     </Link>
                     <Link href="https://cv.conizzoli.com">
-                        <a className={"mt-8 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg"}>{`Look at my CV ↗`}</a>
+                        <a className={"mt-8 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg " +
+                            "hover:bg-slate-200 focus:bg-slate-200 focus:outline focus:outline-2 " +
+                            "focus:outline-offset-2 focus:outline-white"}>{`Look at my CV ↗`}</a>
                     </Link>
                 </section>
             </main>
