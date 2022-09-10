@@ -10,12 +10,6 @@ export default function Footer({year}) {
                 <li className="inline m-2"><Link href="https://www.linkedin.com/in/conizzoli/">
                     <a className={"hover:underline focus:underline"}>Linkedin</a>
                 </Link></li>
-                <li className="inline m-2"><Link href="https://twitter.com/paoloconi96">
-                    <a className={"hover:underline focus:underline"}>Twitter</a>
-                </Link></li>
-                <li className="inline m-2"><Link href="https://www.instagram.com/paoloconi96/">
-                    <a className={"hover:underline focus:underline"}>Instagram</a>
-                </Link></li>
             </ul>
             <p className="mt-2">© Copyright {year} - Paolo Conizzoli, All right reserved.</p>
             <p className={"mt-2 text-slate-500"}>
