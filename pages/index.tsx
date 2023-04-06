@@ -83,10 +83,10 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                             "hover:bg-slate-200 focus:bg-slate-200 focus:outline focus:outline-2 " +
                             "focus:outline-offset-2 focus:outline-white"}>{`Let's chat!`}</a>
                     </Link>
-                    <Link href="https://cv.conizzoli.com">
+                    <Link href="https://drive.google.com/uc?id=1DHUATz7tuEhe5VAOwRm-9Fkv_vnClPHL&export=download">
                         <a className={"mt-8 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg " +
                             "hover:bg-slate-200 focus:bg-slate-200 focus:outline focus:outline-2 " +
-                            "focus:outline-offset-2 focus:outline-white"}>{`Look at my CV ↗`}</a>
+                            "focus:outline-offset-2 focus:outline-white"}>{`Get my resume ↓`}</a>
                     </Link>
                 </section>
             </main>
