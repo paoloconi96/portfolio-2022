@@ -59,11 +59,11 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                     </div>
                     <h1>{`Hey! I'm Paolo`}</h1>
                     <p className={"text-xl mt-4 text-slate-400"}>
-                        {`I'm a Software Developer and Project Manager, living in 🇮🇹.`}<br/>
+                        {`I'm a Software Engineer, living in 🇮🇹.`}<br/>
                     </p>
 
                     <section className={"md:w-9/12 lg:w-7/12 mx-auto"}>
-                        <p className={"mt-12 mb-4"}>I have <strong className={"text-blue-500"}>eight years of
+                        <p className={"mt-12 mb-4"}>I have <strong className={"text-blue-500"}>seven years of
                             experience in software development</strong>, working on different
                             projects for size and technology used. Over the years, in several cases, as coordinator
                             and project manager.</p>
