@@ -50,8 +50,6 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                 <link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32"/>
                 <link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16"/>
                 <meta name="msapplication-TileImage" content="assets/img/favicon/mstile-144x144.png" />
-                <script id="cookieyes" type="text/javascript" defer
-                        src="https://cdn-cookieyes.com/client_data/3f488cc825f717e7896160e1/script.js"></script>
             </Head>
 
             <main className={styles.main}>
