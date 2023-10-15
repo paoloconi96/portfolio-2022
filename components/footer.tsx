@@ -7,7 +7,7 @@ export default function Footer({year}) {
                 <li className="inline m-2"><Link href="https://www.github.com/paoloconi96">
                     <a className={"hover:underline focus:underline"}>Github</a>
                 </Link></li>
-                <li className="inline m-2"><Link href="https://www.linkedin.com/in/conizzoli/">
+                <li className="inline m-2"><Link href="https://www.linkedin.com/in/paolo-conizzoli">
                     <a className={"hover:underline focus:underline"}>Linkedin</a>
                 </Link></li>
             </ul>

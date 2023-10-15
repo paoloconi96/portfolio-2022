@@ -63,7 +63,7 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                     </p>
 
                     <section className={"md:w-9/12 lg:w-7/12 mx-auto"}>
-                        <p className={"mt-12 mb-4"}>I have <strong className={"text-blue-500"}>seven years of
+                        <p className={"mt-12 mb-4"}>I have <strong className={"text-blue-500"}>10 years of
                             experience in software development</strong>, working on different
                             projects for size and technology used. Over the years, in several cases, as coordinator
                             and project manager.</p>
@@ -83,7 +83,7 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                             "hover:bg-slate-200 focus:bg-slate-200 focus:outline focus:outline-2 " +
                             "focus:outline-offset-2 focus:outline-white"}>{`Let's chat!`}</a>
                     </Link>
-                    <Link href="https://drive.google.com/uc?id=1DHUATz7tuEhe5VAOwRm-9Fkv_vnClPHL&export=download">
+                    <Link href="https://drive.google.com/uc?id=15y7Vzi7dSm4Il8I2SVOV2FOZgk8jYXw_&export=download">
                         <a className={"mt-8 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg " +
                             "hover:bg-slate-200 focus:bg-slate-200 focus:outline focus:outline-2 " +
                             "focus:outline-offset-2 focus:outline-white"}>{`Get my resume ↓`}</a>
