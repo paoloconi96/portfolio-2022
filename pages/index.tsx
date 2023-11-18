@@ -86,7 +86,7 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                         {`Let's chat!`}
                     </Link>
                     <Link
-                        href="https://drive.google.com/uc?id=15y7Vzi7dSm4Il8I2SVOV2FOZgk8jYXw_&export=download"
+                        href="/resume"
                         className={"mt-8 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg " +
                             "hover:bg-slate-200 focus:bg-slate-200 focus:outline focus:outline-2 " +
                             "focus:outline-offset-2 focus:outline-white"}>

@@ -5,12 +5,12 @@ export default function Footer({year}) {
         <footer className="text-center mt-16 md:mt-12">
             <ul className="mt-10">
                 <li className="inline m-2"><Link
-                    href="https://www.github.com/paoloconi96"
+                    href="/github"
                     className={"hover:underline focus:underline"}>
                     Github
                 </Link></li>
                 <li className="inline m-2"><Link
-                    href="https://www.linkedin.com/in/paolo-conizzoli"
+                    href="/linkedin"
                     className={"hover:underline focus:underline"}>
                     Linkedin
                 </Link></li>
