@@ -55,7 +55,7 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
             <main className={styles.main}>
                 <section className="w-100 text-center container">
                     <div className="mb-12">
-                        <Image className="rounded-full" src="/me.jpg" width="150px" height="150px" alt={"Paolo portrait"}></Image>
+                        <Image className="inline rounded-full" src="/me.jpg" width="150" height="150" alt={"Paolo portrait"}></Image>
                     </div>
                     <h1>{`Hey! I'm Paolo`}</h1>
                     <p className={"text-xl mt-4 text-slate-400"}>
@@ -78,18 +78,22 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                             </strong> and integrate different operational groups.</p>
                     </section>
 
-                    <Link href="mailto:paolo@conizzoli.com">
-                        <a className={"mt-8 mr-2 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg " +
+                    <Link
+                        href="mailto:paolo@conizzoli.com"
+                        className={"mt-8 mr-2 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg " +
                             "hover:bg-slate-200 focus:bg-slate-200 focus:outline focus:outline-2 " +
-                            "focus:outline-offset-2 focus:outline-white"}>{`Let's chat!`}</a>
+                            "focus:outline-offset-2 focus:outline-white"}>
+                        {`Let's chat!`}
                     </Link>
-                    <Link href="https://drive.google.com/uc?id=15y7Vzi7dSm4Il8I2SVOV2FOZgk8jYXw_&export=download">
-                        <a className={"mt-8 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg " +
+                    <Link
+                        href="https://drive.google.com/uc?id=15y7Vzi7dSm4Il8I2SVOV2FOZgk8jYXw_&export=download"
+                        className={"mt-8 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg " +
                             "hover:bg-slate-200 focus:bg-slate-200 focus:outline focus:outline-2 " +
-                            "focus:outline-offset-2 focus:outline-white"}>{`Get my resume ↓`}</a>
+                            "focus:outline-offset-2 focus:outline-white"}>
+                        {`Get my resume ↓`}
                     </Link>
                 </section>
             </main>
         </Layout>
-    )
+    );
 }
