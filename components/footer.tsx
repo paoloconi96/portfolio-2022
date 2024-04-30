@@ -16,9 +16,6 @@ export default function Footer({year}) {
                 </Link></li>
             </ul>
             <p className="mt-2">© Copyright {year} - Paolo Conizzoli, All right reserved.</p>
-            <p className={"mt-2 text-slate-500"}>
-                Made in <Link href="https://nextjs.org/" className={"hover:underline focus:underline"}>Next.js</Link>, deployed on <Link href="https://vercel.com/" className={"hover:underline focus:underline"}>Vercel</Link>.
-            </p>
         </footer>
     );
 }
