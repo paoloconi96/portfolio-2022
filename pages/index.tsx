@@ -59,7 +59,7 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                     </div>
                     <h1>{`Hey! I'm Paolo`}</h1>
                     <p className={"text-xl mt-4 text-slate-400"}>
-                        {`I'm a Software Engineer, living in 🇮🇹.`}<br/>
+                        {`I'm a Software Engineer, living in 🇨🇭.`}<br/>
                     </p>
 
                     <section className={"md:w-9/12 lg:w-7/12 mx-auto"}>
@@ -86,7 +86,8 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                         {`Let's chat!`}
                     </Link>
                     <Link
-                        href="/resume"
+                        href="/resume/view"
+                        target="_blank"
                         className={"mt-8 inline-block py-2 px-4 bg-white rounded-lg text-black text-lg " +
                             "hover:bg-slate-200 focus:bg-slate-200 focus:outline focus:outline-2 " +
                             "focus:outline-offset-2 focus:outline-white"}>

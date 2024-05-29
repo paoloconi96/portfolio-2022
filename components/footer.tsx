@@ -5,6 +5,11 @@ export default function Footer({year}) {
         <footer className="text-center mt-16 md:mt-12">
             <ul className="mt-10">
                 <li className="inline m-2"><Link
+                    href="/linktree"
+                    className={"hover:underline focus:underline"}>
+                    Linktree
+                </Link></li>
+                <li className="inline m-2"><Link
                     href="/github"
                     className={"hover:underline focus:underline"}>
                     Github

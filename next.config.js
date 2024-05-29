@@ -14,6 +14,12 @@ const nextConfig = {
                 basePath: false,
             },
             {
+                source: '/resume/view',
+                destination: 'https://drive.google.com/file/d/15y7Vzi7dSm4Il8I2SVOV2FOZgk8jYXw_/view',
+                permanent: false,
+                basePath: false,
+            },
+            {
                 source: '/linkedin',
                 destination: 'https://www.linkedin.com/in/paolo-conizzoli',
                 permanent: false,
@@ -34,6 +40,12 @@ const nextConfig = {
             {
                 source: '/o-jp-cert',
                 destination: '/oracle-java-certificate.pdf',
+                permanent: false,
+                basePath: false,
+            },
+            {
+                source: '/linktree',
+                destination: 'https://linktr.ee/paolo.conizzoli',
                 permanent: false,
                 basePath: false,
             },
