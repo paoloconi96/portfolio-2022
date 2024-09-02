@@ -44,7 +44,6 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                 <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
                 <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
 
-                
                 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicon/apple-touch-icon-144x144.png"/>
                 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicon/apple-touch-icon-152x152.png"/>
                 <link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32"/>
@@ -63,19 +62,14 @@ export default function Home({year}: InferGetStaticPropsType<typeof getStaticPro
                     </p>
 
                     <section className={"md:w-9/12 lg:w-7/12 mx-auto"}>
-                        <p className={"mt-12 mb-4"}>I have <strong className={"text-blue-500"}>10 years of
-                            experience in software development</strong>, working on different
-                            projects for size and technology used. Over the years, in several cases, as coordinator
-                            and project manager.</p>
-                        <p className={"mt-2 mb-4"}>I consider myself <strong className={"text-blue-500"}>very curious,
-                            fast learner and proficient handling my time</strong>; I also have strong teamwork and
-                            leadership skills. Because of these qualities, in the last several years, I have been
-                            entrusted with many responsibilities. These duties also allowed me to improve in many areas
-                            of interest.</p>
-                        <p className={"mt-2 mb-4"}>During my career, I had the opportunity to fill
-                            different roles and perform numerous activities types. This dynamism allows me to
-                            <strong className={"text-blue-500"}> master the handling of the entire production workflow
-                            </strong> and integrate different operational groups.</p>
+                        <p className={"mt-12 mb-4"}>With <strong className={"text-blue-500"}>nearly 10 years of
+                            professional experience as a Software Engineer,</strong> I specialize in web and cloud
+                            development, with a strong experience collaborating with Product Managers, DevOps, and
+                            UI/UX teams.</p>
+                        <p className={"mt-2 mb-4"}>I am <strong className={"text-blue-500"}>passionate about tackling
+                            complex problems, exploring new technologies, and identifying data-driven issues </strong>
+                            in the development lifecycle. This helped me gain trust and lead some of my teams&apos;
+                            largest and most challenging projects.</p>
                     </section>
 
                     <Link
