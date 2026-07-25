@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import {useEffect} from "react";
-import { appWithTranslation } from 'next-i18next';
+import {appWithTranslation} from "next-i18next/pages";
 
 function MyApp({Component, pageProps}) {
     useEffect(() =>
